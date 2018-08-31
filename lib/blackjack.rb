@@ -18,7 +18,7 @@ def prompt_user
 end
 
 def get_user_input
-  gets.chomp
+  user_input = gets.chomp
 end
 
 def end_game (deal_card)
@@ -30,8 +30,9 @@ def initial_round
 end
 
 def hit? (get_user_input)
-  if gets.chomp == "h"
+  if user_input == "h"
    deal_card
+   
 end
 end
 
