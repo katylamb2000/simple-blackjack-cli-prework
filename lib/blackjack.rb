@@ -29,7 +29,7 @@ end
 def initial_round
   initial = 0
  2.times do deal_card
- ititial += card_total
+ ititial += deal_card
  initial
  
 end
