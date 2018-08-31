@@ -1,9 +1,9 @@
 def welcome
-  puts "Welcome to the Black Jack Table"
+  print "Welcome to the Black Jack Table"
 end
 
 def deal_card
-  1 + rand(21)
+  rand(20)
 end
 
 def display_card_total
