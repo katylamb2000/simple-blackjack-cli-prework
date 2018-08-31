@@ -9,7 +9,8 @@ end
 def display_card_total (deal_card)
   total = 0
   total += deal_card
-  total
+   "Your cards add up to #{total}"
+ end
 end
 
 
