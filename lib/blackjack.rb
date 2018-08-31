@@ -21,17 +21,17 @@ def get_user_input
   user_input = gets.chomp
 end
 
-def end_game (deal_card)
-  puts "Sorry, you hit #{deal_card}. Thanks for playing"
+def end_game (total)
+  puts "Sorry, you hit #{total}. Thanks for playing"
 end
 
-def initial_round
+def initial_round ()
   deal_card
   deal_card
   display_card_total
 end
 
-def hit? (user_input)
+def hit? 
   if user_input == "h"
    deal_card
  else
