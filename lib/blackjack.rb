@@ -3,12 +3,12 @@ def welcome
 end
 
 def deal_card
-  car_total = 1 + rand(11)
+  card_total = 1 + rand(11)
 end
 
 def display_card_total (card_total)
   total = 0
-  total += deal_card
+  total += card_total
   puts "Your cards add up to #{total}"
  end
 
