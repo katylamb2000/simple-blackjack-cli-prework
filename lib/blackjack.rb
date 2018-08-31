@@ -27,9 +27,9 @@ def end_game (card_total)
 end
 
 def initial_round
-  inital = 0
+  initial = 0
  2.times do deal_card
- itital += deal_card
+ ititial += deal_card
  initial
  
 end
