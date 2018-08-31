@@ -29,7 +29,7 @@ def initial_round
   # code #initial_round here
 end
 
-def hit?
+def hit? (get_user_input)
   if gets.chomp == "h"
    deal_card
 end
