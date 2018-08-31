@@ -30,7 +30,8 @@ def initial_round
 end
 
 def hit?
-   code hit? here
+  if gets_chomp == "h"
+   deal_card
 end
 
 def invalid_command
