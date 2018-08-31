@@ -1,5 +1,5 @@
 def welcome
-  print "Welcome to the Black Jack Table"
+  puts "Welcome to the Black Jack Table"
 end
 
 def deal_card
