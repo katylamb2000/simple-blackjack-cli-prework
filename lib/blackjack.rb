@@ -30,6 +30,7 @@ def initial_round
   2.times do deal_card
   puts card_total
 end
+end
 
 def hit? ()
   prompt_user
