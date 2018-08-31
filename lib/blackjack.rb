@@ -33,6 +33,7 @@ def hit?
   if gets_chomp == "h"
    deal_card
 end
+end
 
 def invalid_command
   # code invalid_command here
