@@ -7,9 +7,9 @@ def deal_card
 end
 
 def display_card_total (deal_card)
-  total = []
-  total << deal_card
-  total.sum
+  total = 0
+  total += deal_card
+  total
 end
 
 
