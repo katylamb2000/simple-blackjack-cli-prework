@@ -29,7 +29,7 @@ def initial_round
   # code #initial_round here
 end
 
-def hit? (get_user_input)
+def hit? (user_input)
   if user_input == "h"
    deal_card
    
