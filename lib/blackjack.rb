@@ -30,7 +30,7 @@ def initial_round
 end
 
 def hit?
-  if gets_chomp == "h"
+  if gets.chomp == "h"
    deal_card
 end
 end
