@@ -17,8 +17,9 @@ def prompt_user
   puts "Type 'h' to hit or 's' to stay"
 end
 
-def get_user_input
+def get_user_input(string)
   input = gets.chomp
+  input
 end
 
 def end_game (total)
