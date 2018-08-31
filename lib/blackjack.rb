@@ -28,7 +28,7 @@ end
 
 def initial_round (card_total)
   2.times do deal_card
-  puts card_total
+  return card_total
 end
 end
 
@@ -36,9 +36,9 @@ def hit? (card_total)
   prompt_user
   get_user_input
   if input == "h"
-   deal_card
+   return deal_card
  else
-   puts card_total
+   return card_total.int
    
 end
 end
