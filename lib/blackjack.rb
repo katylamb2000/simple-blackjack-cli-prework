@@ -1,5 +1,5 @@
 def welcome
-  puts "Welcome to the BlackJack Table"
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
@@ -18,7 +18,7 @@ def prompt_user
 end
 
 def get_user_input
-  # code #get_user_input here
+  get.chomp
 end
 
 def end_game
