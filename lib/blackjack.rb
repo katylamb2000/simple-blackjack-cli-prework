@@ -31,12 +31,12 @@ def initial_round
  puts card_total
 end
 
-def hit? (card_total, input)
+def hit? (input)
   prompt_user
   get_user_input
   if input == "h"
    deal_card
- else
+ elseif input == "s"
    return card_total
    
 end
