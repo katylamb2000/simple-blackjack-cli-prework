@@ -26,19 +26,19 @@ def end_game (card_total)
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
-def initial_round
+def initial_round (card_total)
   2.times do deal_card
   puts card_total
 end
 end
 
-def hit? ()
+def hit? (card_total)
   prompt_user
   get_user_input
-  if user_input == "h"
+  if input == "h"
    deal_card
  else
-   display_card_total
+   puts card_total
    
 end
 end
